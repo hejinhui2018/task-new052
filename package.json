@@ -1,0 +1,27 @@
+{
+  "name": "draftrelay",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "DraftRelay 离线草稿同步演练台：双客户端、离线队列、服务端确认、冲突合并与故障注入",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "jsdom": "^30.1.0",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}
